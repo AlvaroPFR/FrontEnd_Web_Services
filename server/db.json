@@ -1,0 +1,236 @@
+{
+  "users": [
+    {
+      "id": "987654321",
+      "full_name": "María García",
+      "company_name": "GreenFields",
+      "email_address": "maria.garcia@example.com",
+      "phone_number": "123456789",
+      "user_type": "vendedor",
+      "password": "securepass",
+      "payments_pending": [
+        {
+          "payment_type": "salario",
+          "amount": 500
+        }
+      ],
+      "receivables_pending": [
+        {
+          "receivable_type": "venta de manzanas",
+          "amount": 200
+        },
+        {
+          "receivable_type": "venta de otras frutas",
+          "amount": 300
+        }
+      ]
+    },
+    {
+      "id": "987654321",
+      "full_name": "María García",
+      "company_name": "GreenFields",
+      "email_address": "maria.garcia@example.com",
+      "phone_number": "123456789",
+      "user_type": "vendedor",
+      "password": "securepass",
+      "payments_pending": [
+        {
+          "payment_type": "salario",
+          "amount": 600
+        }
+      ],
+      "receivables_pending": [
+        {
+          "receivable_type": "venta de manzanas",
+          "amount": 400
+        }
+      ]
+    },
+    {
+      "id": "15344",
+      "full_name": "Martha",
+      "company_name": "Agricola",
+      "email_address": "marta@gmail.com",
+      "phone_number": "2154564646",
+      "user_type": "vendedor",
+      "password": "15466464",
+      "payments_pending": [
+        {
+          "payment_type": "salario",
+          "amount": 600
+        }
+      ],
+      "receivables_pending": [
+        {
+          "receivable_type": "venta de manzanas",
+          "amount": 400
+        }
+      ]
+    },
+    {
+      "id": "3231",
+      "full_name": "mario",
+      "company_name": "mario bussiness",
+      "email_address": "mario@gmail.com",
+      "phone_number": "4486486",
+      "user_type": "agricultor",
+      "password": "121221",
+      "payments_pending": [
+        {
+          "payment_type": "compra de abono",
+          "amount": 1000
+        }
+      ],
+      "receivables_pending": [
+        {
+          "receivable_type": "venta de manzanas",
+          "amount": 800
+        },
+        {
+          "receivable_type": "venta de otras frutas",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "id": "",
+      "full_name": "",
+      "company_name": "",
+      "email_address": "",
+      "phone_number": "",
+      "user_type": "",
+      "password": ""
+    },
+    {
+      "id": "",
+      "full_name": "",
+      "company_name": "",
+      "email_address": "",
+      "phone_number": "",
+      "user_type": "",
+      "password": ""
+    },
+    {
+      "id": "",
+      "full_name": "",
+      "company_name": "",
+      "email_address": "",
+      "phone_number": "",
+      "user_type": "",
+      "password": ""
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": 1,
+      "description": "Preparar informe de ventas",
+      "task_status": "doing",
+      "id": "5f5a"
+    },
+    {
+      "task_id": 2,
+      "description": "Enviar correos electrónicos a clientes",
+      "task_status": "to do",
+      "id": "7274"
+    },
+    {
+      "task_id": 3,
+      "description": "Revisar inventario de productos",
+      "task_status": "to do",
+      "id": "eb1e"
+    },
+    {
+      "task_id": 4,
+      "description": "Realizar llamadas de seguimiento",
+      "task_status": "to do",
+      "id": "b465"
+    },
+    {
+      "task_id": 5,
+      "description": "Programar reunión con proveedores",
+      "task_status": "to do",
+      "id": "5e3a"
+    },
+    {
+      "task_id": 6,
+      "description": "Actualizar catálogo de productos",
+      "task_status": "to do",
+      "id": "1185"
+    },
+    {
+      "task_id": 7,
+      "description": "Investigar nuevas estrategias de marketing",
+      "task_status": "to do",
+      "id": "5b6c"
+    },
+    {
+      "task_id": 8,
+      "description": "Asistir a reunión de equipo",
+      "task_status": "to do",
+      "id": "1017"
+    }
+  ],
+  "cultivos": [
+    {
+      "id": "3",
+      "estado": "Bueno",
+      "area": 50,
+      "costo": 200,
+      "producto": "Maíz",
+      "retorno": 600,
+      "localizacion": "Trujillo",
+      "notificaciones": "Ninguna",
+      "image_Url": "https://i.postimg.cc/hGWLZTfZ/choclo.jpg"
+    },
+    {
+      "id": "8",
+      "estado": "Regular",
+      "area": 40,
+      "costo": 150,
+      "producto": "Tomate",
+      "retorno": 500,
+      "localizacion": "Ica",
+      "notificaciones": "Ninguna",
+      "image_Url": "https://i.postimg.cc/jSC3YHqs/tomate.jpg"
+    },
+    {
+      "id": "5",
+      "estado": "Excelente",
+      "area": 60,
+      "costo": 250,
+      "producto": "Papa",
+      "retorno": 700,
+      "localizacion": "Arequipa",
+      "notificaciones": "Ninguna",
+      "image_Url": "https://i.postimg.cc/XqVxHFD6/papa.jpg"
+    },
+    {
+      "id": "6",
+      "estado": "Bueno",
+      "area": 45,
+      "costo": 180,
+      "producto": "Arroz",
+      "retorno": 550,
+      "localizacion": "Lambayeque",
+      "notificaciones": "Todas",
+      "image_Url": "https://i.postimg.cc/NfdCnJcJ/arroz.jpg"
+    },
+    {
+      "id": "7896",
+      "estado": "Regular",
+      "area": 55,
+      "costo": 220,
+      "producto": "Café",
+      "retorno": 650,
+      "localizacion": "Cusco",
+      "notificaciones": "Ninguna",
+      "image_Url": "https://i.postimg.cc/bNw31xtQ/cafee.png"
+    },
+    {
+      "id": "2ace",
+      "producto": "",
+      "area": "",
+      "localizacion": ""
+    }
+  ]
+}
