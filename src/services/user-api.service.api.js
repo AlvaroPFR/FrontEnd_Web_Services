@@ -22,6 +22,9 @@ export class UserApiService {
     async delete(id) {
         return await http.delete('users/'+id)
     }
+    async getPayments_pendingById(id) {
+        return await http.get('users/payments_pending'+id)
+    }
 
     async login(username, password) {
         try {

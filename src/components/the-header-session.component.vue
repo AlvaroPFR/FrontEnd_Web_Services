@@ -2,10 +2,25 @@
   <header class="header">
     <div class="container">
       <div class="left-section">
+
         <div class="logo-container">
+
           <img src="@/assets/images/logo.png" alt="Logo" class="logo">
+          <router-link to="/home" class="link">
           <h1 class="company-name">{{ companyName }}</h1>
+          </router-link>
         </div>
+
+      </div>
+      <div class="right-section">
+        <router-link to="/crops" class="link">Crops</router-link>
+        <router-link to="/employee" class="link">Employees</router-link>
+        <router-link to="/store" class="link">Store</router-link>
+        <router-link to="/finances" class="link">Pending payments</router-link>
+        <router-link to="/orders" class="link">Orders</router-link>
+        <router-link to="/pending_payments" class="link">Finances</router-link>
+        <router-link to="/farmer_chat" class="link">Chat</router-link>
+        <button @click="logout" class="button-logout">Log out</button>
       </div>
     </div>
   </header>

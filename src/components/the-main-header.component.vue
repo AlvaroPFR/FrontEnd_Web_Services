@@ -44,9 +44,9 @@ export default {
 
 <style scoped>
 .header {
-  background-color: #ffffff; /* Color de fondo */
+  background-color: #ffffff;
   padding: 10px 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .container {
@@ -61,29 +61,29 @@ export default {
 }
 
 .logo {
-  width: 40px; /* Tamaño del logo */
+  width: 40px;
   margin-right: 10px;
 }
 
 .company-name {
   margin: 0;
-  font-size: 18px; /* Tamaño del texto */
-  color: #333; /* Color del texto */
+  font-size: 18px;
+  color: #333;
 }
 
 .button-login,
 .button-register {
-  background-color: #75aa9c; /* Color de fondo */
-  color: #ffffff; /* Color del texto */
-  border: none; /* Sin borde */
-  padding: 10px 20px; /* Padding */
-  border-radius: 20px; /* Bordes redondeados */
+  background-color: #75aa9c;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s; /* Transición suave */
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .button-login:hover,
 .button-register:hover {
-  background-color: #0056b3; /* Color de fondo al pasar el ratón */
+  background-color: #0056b3;
 }
 </style>

@@ -8,10 +8,13 @@
         </div>
       </div>
       <div class="right-section">
-        <router-link to="/cultivos" class="link">Crops</router-link>
-        <router-link to="/empleados" class="link">Employees</router-link>
-        <router-link to="/pedidos" class="link">Orders</router-link>
-        <router-link to="/tienda" class="link">Store</router-link>
+        <router-link to="/crops" class="link">Crops</router-link>
+        <router-link to="/employee" class="link">Employees</router-link>
+        <router-link to="/store" class="link">Store</router-link>
+        <router-link to="/finances" class="link">Pending payments</router-link>
+        <router-link to="/orders" class="link">Orders</router-link>
+        <router-link to="/pending_payments" class="link">Finances</router-link>
+        <router-link to="/farmer_chat" class="link">Chat</router-link>
         <button @click="logout" class="button-logout">Log out</button>
       </div>
     </div>
@@ -29,7 +32,7 @@ export default {
   methods: {
       async logout() {
         try {
-          await this.$router.push('/'); // Cambia '/' por la ruta a la que deseas redirigir al usuario
+          await this.$router.push('/');
         } catch (error) {
           console.error('Error:', error);
         }
@@ -40,9 +43,9 @@ export default {
 
 <style scoped>
 .header {
-  background-color: #ffffff; /* Color de fondo */
+  background-color: #ffffff;
   padding: 10px 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .container {
@@ -57,38 +60,38 @@ export default {
 }
 
 .logo {
-  width: 40px; /* Tamaño del logo */
+  width: 40px;
   margin-right: 10px;
 }
 
 .company-name {
   margin: 0;
-  font-size: 18px; /* Tamaño del texto */
-  color: #333; /* Color del texto */
+  font-size: 18px;
+  color: #333;
 }
 
 .link {
-  text-decoration: none; /* Quitar subrayado */
-  color: #333; /* Color del texto */
-  margin-right: 20px; /* Espaciado entre enlaces */
-  transition: color 0.3s; /* Transición de color */
+  text-decoration: none;
+  color: #333;
+  margin-right: 20px;
+  transition: color 0.3s;
 }
 
 .link:hover {
-  color: #007bff; /* Color del texto al pasar el ratón */
+  color: #007bff;
 }
 
 .button-logout {
-  background-color: #dc3545; /* Color de fondo */
-  color: #ffffff; /* Color del texto */
-  border: none; /* Sin borde */
-  padding: 10px 20px; /* Padding */
-  border-radius: 20px; /* Bordes redondeados */
+  background-color: #dc3545;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s; /* Transición suave */
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .button-logout:hover {
-  background-color: #bd2130; /* Color de fondo al pasar el ratón */
+  background-color: #bd2130;
 }
 </style>

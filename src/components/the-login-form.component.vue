@@ -47,17 +47,12 @@ export default {
         const userApiService = new UserApiService();
         const user = await userApiService.login(this.username, this.password);
         if (user) {
-          // Almacenar la información del usuario en el almacenamiento local o de sesión
-          // Esto depende de cómo manejes la autenticación en tu aplicación
-          // Por ejemplo, puedes usar localStorage.setItem('user', JSON.stringify(user));
           await router.push('/home');
         } else {
           console.error('Credenciales incorrectas');
-          // Podrías mostrar un mensaje de error al usuario aquí
         }
       } catch (error) {
         console.error('Error en el inicio de sesión:', error.message);
-        // Podrías mostrar un mensaje de error al usuario aquí
       }
     },
     async register() {
